@@ -19,6 +19,7 @@ class Employee:
         saves those values to instance variables. It also initializes the
         variable that holds the comments received by this employee to zero.
         """
+        # TODO: Implement this method then remove this line
         pass
 
     def __str__(self):
@@ -36,6 +37,7 @@ def print_employee_list(lst):
     Given a list of employees, this method will print the details of each employee
     by using the print() method
     """
+    # TODO: Implement this function then remove this line
     pass
 
 
@@ -44,6 +46,7 @@ def create_employees(total_num):
     Takes in the number of employees to make, builds and returns a list that contains
     that many employees. It ensures that ~80% are men and the rest women.
     """
+    # TODO: Implement this function then remove this line
     pass
 
 
@@ -52,6 +55,7 @@ def create_commenters(lst):
     Given a list of employees, make 20% of each gender be sexist employees. This
     method should not return anything.
     """
+    # TODO: Implement this function then remove this line
     pass
 
 
@@ -61,6 +65,7 @@ def generate_comments(lst):
     another employee of the opposite gender, chosen randomly. This method should
     not return anything
     """
+    # TODO: Implement this function then remove this line
     pass
 
 
@@ -69,6 +74,7 @@ def average_comments(lst):
     Returns a tuple that represents the average amount of comments received for men and women
     respectively. Return statement will be in the form (<avg_for_men>, <avg_for_women>)
     """
+    # TODO: Implement this function then remove this line
     pass
 
 
@@ -114,4 +120,4 @@ if __name__ == "__main__":
     print(average_comments(employees))
 
     "<----- Run the simulation ----->"
-    # main()  # <-- KEEP THIS
+    # main()  # <-- KEEP THIS, Uncomment it after implementing all the functions
